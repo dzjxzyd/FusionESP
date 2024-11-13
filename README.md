@@ -1,5 +1,5 @@
 
-This repository is for the paper [CLR_ESP: Improved enzyme-substrate pair prediction  using contrastive learning](https://www.biorxiv.org/content/10.1101/2024.08.13.607829v1)
+This repository is for the paper [CLR_ESP: Improved enzyme-substrate pair prediction  using contrastive learning](https://www.biorxiv.org/content/10.1101/2024.08.13.607829v2)
 
 All the implementation was conducted in GoogleColab + GoogleDrive. The repository provided the original notebook for reproduction. 
 
