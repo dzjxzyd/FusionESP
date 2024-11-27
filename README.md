@@ -49,6 +49,7 @@ df_test_smiles.pt
 df_test_label.pt
 ```
 A potential debug warning, if your dataset is too large and your RAM is not enough to keep all the generated embeddings, it is suggested to split your dataset into smaller csv files and generate embedding sequentially and concatenate them after embeddings. 
+Notice：Extremely long protein sequence will consume too much computation resource and result in CUDA out of memory. We set the maximum length of protein sequence as 5500 with A100 GPU. Feel free to change the maximum seqeunce length to remve long protein sequence if GPU memory is not enough. 
 
 ### training and performance evaluation
 
