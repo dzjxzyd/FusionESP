@@ -58,6 +58,11 @@ $ python train.py --train_enzy df_train_enzy.pt --train_smiles df_train_smiles.p
 
 All the implementation was conducted in Google Colab + Google Drive. The repository provided the original notebook for reproduction. 
 
-The original data, embedding files and models are save at [GoogleDrive link](https://drive.google.com/drive/folders/1op-L1iG55gGDhSCCXT9z62c9kJhoQ769?usp=drive_link)
+The original data, embedding files and models are save at [GoogleDrive link](https://drive.google.com/drive/folders/1op-L1iG55gGDhSCCXT9z62c9kJhoQ769?usp=drive_link) (To save computation resource, the embedding operation was stratified based on the protein seqeunce length, Therefore, You will find several files inside the Google Drive folders. Feel free to use them if you want to save the time and resources spent on embeddings).
+```
+# load the embeddings, an example
+ESP_train_df_enzy = torch.load('ESP_train_df_enzy_esm1b_MolFormer.pt')
+# in order to load all the embeddings, recommended to refer the jupyter notebook under this reporsitory.
+```
 
 
