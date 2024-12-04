@@ -52,7 +52,13 @@ Notice：Extremely long protein sequence will consume too much computation resou
 
 ### Training and performance evaluation
 
+```
 $ python train.py --train_enzy df_train_enzy.pt --train_smiles df_train_smiles.pt --train_y df_train_label.pt --val_enzy df_valid_enzy.pt --val_smiles df_valid_smiles.pt --val_y df_valid_label.pt --test_enzy df_test_enzy.pt --test_smiles df_test_smiles.pt --test_y df_test_label.pt
+```
+```
+train.py is the file for reproduction;
+train_resampling_7_1_2.py is same as the train.py, but redivided the whole dataset into 7:1:2 ratio for train, validation and test.
+```
 
 ### Reproduction
 All the implementation was conducted in Google Colab + Google Drive. The repository provided the original notebook for reproduction. 
