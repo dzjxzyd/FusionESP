@@ -60,8 +60,8 @@ train.py is the file for reproduction;
 train_resampling_7_1_2.py is same as the train.py, but redivided the whole dataset into 7:1:2 ratio for train, validation and test.
 ```
 
-### Reproduction
-All the implementation was conducted in Google Colab + Google Drive. The repository provided the original notebook for reproduction. 
+### Reproduction of usage of FusionESP
+All the implementation was conducted in Google Colab + Google Drive. The repository provided the original notebook for reproduction (Folder: Notebook for reproduction). 
 
 The original data, embedding files and models are save at [GoogleDrive link](https://drive.google.com/drive/folders/1op-L1iG55gGDhSCCXT9z62c9kJhoQ769?usp=drive_link) (To save computation resource, the embedding operation was stratified based on the protein seqeunce length, Therefore, You will find several files inside the Google Drive folders. Feel free to use them if you want to save the time and resources spent on embeddings).
 ```
@@ -69,6 +69,15 @@ The original data, embedding files and models are save at [GoogleDrive link](htt
 ESP_train_df_enzy = torch.load('ESP_train_df_enzy_esm1b_MolFormer.pt')
 # in order to load all the embeddings, recommended to refer the jupyter notebook under this reporsitory.
 ```
+
+
+```
+# Locally reproduction or usage of FusionESP
+1. Download the generate_embeddings.py; model.py; train.py
+2. Prepare the environment as above (Google Colab has the pre-prepared environment)
+3. Run the generate_embeddings.py and train.py subsequently as the command line example above. 
+```
+
 
 ### Other data availability
 The best model (ESM-2560 + MolFormer training on both experimental evidence-based and phylogenetic evidence-based dataset) listed in Table 3 was also available at [GoogleDrive link](https://drive.google.com/drive/folders/1op-L1iG55gGDhSCCXT9z62c9kJhoQ769?usp=drive_link)
