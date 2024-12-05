@@ -18,9 +18,10 @@ $ pip install -r requirements.txt
 numpy==1.26.4
 pandas==2.2.2
 scikit-learn==1.5.2
-torch==2.5.1+cu121
+torch==2.5.1
 fair-esm==2.0.0
 rdkit==2024.03.6
+transformers==4.46.2
 ```
 ### Datasets
 The original dataset are also uploaded to [Zenodo](https://zenodo.org/records/13891018).The dataset was downloaded from the our references without any modification. The dataset was divided into training, validation, and test sets as in the original paper. [paper 1](https://www.nature.com/articles/s41467-023-38347-2) and [paper 2](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012100). They can also be downloaded from Google Drive at save at [GoogleDrive link](https://drive.google.com/drive/folders/1op-L1iG55gGDhSCCXT9z62c9kJhoQ769?usp=drive_link).
