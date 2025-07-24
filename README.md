@@ -83,5 +83,5 @@ ESP_train_df_enzy = torch.load('ESP_train_df_enzy_esm1b_MolFormer.pt')
 ### Other data availability
 The best model (ESM-2560 + MolFormer training on both experimental evidence-based and phylogenetic evidence-based dataset) listed in Table 3 was also available at [GoogleDrive link](https://drive.google.com/drive/folders/1op-L1iG55gGDhSCCXT9z62c9kJhoQ769?usp=drive_link)
 
-
-
+### Acknowledgment
+Portions of this work were supported by the National Science Foundation CICI Program (2419880)
