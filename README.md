@@ -1,3 +1,4 @@
+2025-09-28 update: Due to the cessation of payments for the Google Drive service, a significant number of necessary embedding files have been lost. For successful reproducibility and to ensure system functionality, users are strongly advised to regenerate those embeddings independently.
 
 This repository is for the paper [FusionESP: Improved enzyme-substrate pair prediction by fusing protein and chemical knowledge](https://www.biorxiv.org/content/10.1101/2024.08.13.607829v2)
 
