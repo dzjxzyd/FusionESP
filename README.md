@@ -25,7 +25,7 @@ rdkit==2024.03.6
 transformers==4.46.2
 ```
 ### Datasets
-The original dataset are also uploaded to [Zenodo](https://zenodo.org/records/13891018).The dataset was downloaded from the our references without any modification. The dataset was divided into training, validation, and test sets as in the original paper. [paper 1](https://www.nature.com/articles/s41467-023-38347-2) and [paper 2](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012100). They can also be downloaded from Google Drive at save at [GoogleDrive link](https://drive.google.com/drive/folders/1op-L1iG55gGDhSCCXT9z62c9kJhoQ769?usp=drive_link).
+The original dataset are also uploaded to [Zenodo](https://zenodo.org/records/13891018).The dataset was downloaded from the our references without any modification. The dataset was divided into training, validation, and test sets as in the original paper. [paper 1](https://www.nature.com/articles/s41467-023-38347-2) and [paper 2](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012100). They can also be downloaded from OneDrive at save at [OneDrive link](https://ksuemailprod-my.sharepoint.com/:f:/g/personal/yonghui_ksu_edu/EiyZefFw5vZHrjZ1_NpdrgcBRyvJzReuHWLYYFSHvUFc8Q?e=EGkpJT).
 
 ### Embeddings 
 To reduce the computation consumtion of repeated embedding generation for the same molecules and proteins, we separate the embeddings and training procedure.
@@ -65,7 +65,7 @@ train_resampling_7_1_2.py is same as the train.py, but redivided the whole datas
 ### Reproduction of usage of FusionESP
 All the implementation was conducted in Google Colab + Google Drive. The repository provided the original notebook for reproduction (Folder: Notebook for reproduction). 
 
-The original data, embedding files and models are save at [GoogleDrive link](https://drive.google.com/drive/folders/1op-L1iG55gGDhSCCXT9z62c9kJhoQ769?usp=drive_link) (To save computation resource, the embedding operation was stratified based on the protein seqeunce length, Therefore, You will find several files inside the Google Drive folders. Feel free to use them if you want to save the time and resources spent on embeddings).
+The original data, embedding files and models are save at [OneDrive link](https://ksuemailprod-my.sharepoint.com/:f:/g/personal/yonghui_ksu_edu/EiyZefFw5vZHrjZ1_NpdrgcBRyvJzReuHWLYYFSHvUFc8Q?e=EGkpJT) (To save computation resource, the embedding operation was stratified based on the protein seqeunce length, Therefore, You will find several files inside the Google Drive folders. Feel free to use them if you want to save the time and resources spent on embeddings).
 ```
 # load the embeddings, an example
 ESP_train_df_enzy = torch.load('ESP_train_df_enzy_esm1b_MolFormer.pt')
@@ -82,7 +82,7 @@ ESP_train_df_enzy = torch.load('ESP_train_df_enzy_esm1b_MolFormer.pt')
 
 
 ### Other data availability
-The best model (ESM-2560 + MolFormer training on both experimental evidence-based and phylogenetic evidence-based dataset) listed in Table 3 was also available at [GoogleDrive link](https://drive.google.com/drive/folders/1op-L1iG55gGDhSCCXT9z62c9kJhoQ769?usp=drive_link)
+The best model (ESM-2560 + MolFormer training on both experimental evidence-based and phylogenetic evidence-based dataset) listed in Table 3 was also available at [OneDrive link](https://ksuemailprod-my.sharepoint.com/:f:/g/personal/yonghui_ksu_edu/EiyZefFw5vZHrjZ1_NpdrgcBRyvJzReuHWLYYFSHvUFc8Q?e=EGkpJT)
 
 ### Acknowledgment
 Portions of this work were supported by the National Science Foundation CICI Program (2419880)
